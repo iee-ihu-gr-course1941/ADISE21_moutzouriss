@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>ΑΔΙΣΕ: Μουτζούρης</title>
+
+        <link rel="stylesheet" href="css/dry.css">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|IBM+Plex+Sans&display=swap" rel="stylesheet">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/dry.js"></script>
+    </head>
+    <body>
+        <h1>ΑΔΙΣΕ 2021 - Μουτζούρης</h1>
+        <input type="button" value="reset/quit" id="reset"/>
+        <div id="loginForm">
+            <h3>Pick a deck color:</h3>
+            <input type="radio" name="deckColor" value="red" checked="true"> Red
+            <input type="radio" name="deckColor" value="blue"> Blue 
+            <input type="radio" name="deckColor" value="black"> Black 
+            <input type="radio" name="deckColor" value="purple"> Purple 
+            <input type="radio" name="deckColor" value="orange"> Orange<br><br>
+            <input id="username" placeholder="Pick a username">
+            <button id="loginButton">LOGIN</button>
+        </div>
+        <div id="waitDiv">
+            <p>Waiting for opponent...</p>
+            <iframe id="waitGif" src="https://giphy.com/embed/tXL4FHPSnVJ0A" frameBorder="0"></iframe>
+        </div>
+        <div id="board">
+            <div class="hand" id="opponent">
+
+            </div>
+            <div id="stack">
+
+            </div>
+            <div class="hand" id="viewer">
+
+            </div>
+        </div>
+        <!--<div id="game_info">
+        </div>-->
+    </body>
+</html>

@@ -1,0 +1,76 @@
+body {
+    background-color: #21823b;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+p{
+    padding-left: 85px;
+    font-size: 1.2em;
+}
+
+#reset, #loginButton {
+    border-radius: 40%;
+    padding: 4px 8px;
+}
+
+#reset {
+    background-color: #fc4949;
+}
+
+#waitGif {
+    width: 330px;
+    height: 167px;
+}
+
+.cards {
+    height: 170px;
+}
+
+img {
+    width: 100px;
+    height: 125px;
+}
+
+#viewer img:hover {
+    position: relative;
+    top: -20px;  
+}
+
+.card1 {
+    position: relative;
+    left: -50px;
+}
+
+.card2 {
+    position: relative;
+    left: -100px;
+}
+
+.card3 {
+    position: relative;
+    left: -150px;
+}
+
+.card4 {
+    position: relative;
+    left: -200px;
+}
+
+.card5 {
+    position: relative;
+    left: -250px;
+}
+
+#stack {
+    padding-left: 150px;
+}
+#stack img {
+    position: absolute;
+}
